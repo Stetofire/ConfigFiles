@@ -27,7 +27,7 @@ nnoremap <silent> <C-l> <C-PageDown>
 nnoremap <silent> <C-j> :tabm -1<CR>
 nnoremap <silent> <C-k> :tabm +1<CR>
 " New tab creator
-nnoremap , :tabnew<CR>:e .<CR>
+nnoremap , :tabnew .<CR>
 " Recognize all :W's
 :command W w
 " Return to explorer
